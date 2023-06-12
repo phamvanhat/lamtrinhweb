@@ -1,0 +1,76 @@
+body{
+    margin: 0px !important;
+    padding: 0% !important;
+}
+
+
+.banner{
+    height: 500px;
+    background: url('./hinh1.jpg') no-repeat;
+
+    padding:20px ;
+
+    .about-sign-in{
+        height: 80px;
+        width: 100%;
+        text-align: right;
+
+
+        .about ,
+        .sign-in{
+            text-decoration: none;
+            margin-top: 20px;
+            padding: 15px;
+            display: inline-block;
+            text-transform: uppercase;
+            color: antiquewhite;
+        }
+        .sign-in{
+            margin-right: 60px;
+            margin-left: 25px;
+            border-radius: 15px;
+            border: 1px solid green;
+        }
+    }
+    .logo{
+        background: url("./logo.png") center no-repeat; 
+        height: 125px;
+        margin-top: 40px;
+    
+    }
+    .content-center{
+        height: 130px;
+        margin-top: 20px;
+    
+     
+        .left, .center,.right{
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+        }
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        span{
+            display: block;
+        }
+    }
+    .text{
+        text-align: center;
+        margin-top: 30px;
+        color: blue; 
+    }
+    .btn-start-now{
+        text-align: center;
+    
+        button{
+            text-transform: uppercase;
+            padding: 12px;
+            border-radius: 20px;
+            border: 1px solid green;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    }
+}
